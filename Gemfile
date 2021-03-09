@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 4.2'
+gem 'jekyll', '~> 3.9'
 gem 'jekyll-analytics'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
