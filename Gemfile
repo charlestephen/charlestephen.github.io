@@ -8,8 +8,11 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem 'jemoji'
+gem 'html-pipeline'
 gem "jekyll-github-metadata"
 gem 'jekyll-readme-index'
+gem 'rouge'
+gem "html-pipeline-linkify_github"
 gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem 'jekyll-timeago', '~> 0.14.0'
