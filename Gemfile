@@ -8,6 +8,7 @@ gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem 'jemoji'
+gem 'html-pipeline'
 gem "jekyll-github-metadata"
 gem 'jekyll-readme-index'
 gem "github-pages", group: :jekyll_plugins
