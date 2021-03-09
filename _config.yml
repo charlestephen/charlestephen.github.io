@@ -1,12 +1,11 @@
-docs2_list_title: CharleStephen's Github Home
+site_title: "CharleStephen's Github Home"
 
 # Your name to show in the footer
 author: "Charles Stephen Thompson"
 
 # --- List of links in the navigation bar --- #
 
-
-  Author's home: "https://cst.nyc"
+Homepage: "https://cst.nyc"
 
 # --- Logo --- #
 
@@ -29,17 +28,17 @@ round-avatar: true
 social-network-links:
   email: info@cst.nyc
   facebook: https://www.facebook.com/charlestephen
-  github:   https://github.com/charlestephen
-  twitter:  https://twitter.com/handyhomo
+  github: https://github.com/charlestephen
+  twitter: https://twitter.com/handyhomo
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
-  reddit:   https://www.reddit.com/user/charlestephen
+  reddit: https://www.reddit.com/user/charlestephen
   linkedin: https://linkedin.com/in/mrcharlestephen
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
   instagram: https://instagram.com/handyhomo
-  spotify:  https://open.spotify.com/user/charlestephen
+  spotify: https://open.spotify.com/user/charlestephen
 #  steam: deanat78
   twitch: https://www.twitch.tv/handyhomo
 #  yelp: yourname
@@ -194,9 +193,9 @@ plugins:
 
 watch: true
 jekyll_analytics:
-GoogleAnalytics:
-  id: UA-158763117-1
-  anonymizeIp: false
+  GoogleAnalytics:
+    id: UA-158763117-1
+    anonymizeIp: false
 url: "https://git.cst.nyc"
 
 show_downloads: "true"
