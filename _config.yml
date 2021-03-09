@@ -218,4 +218,13 @@ google_analytics: UA-158763117-1
 github:
   zip_url: http://github.com/download.zip
   another_url: https://git.cst.nyc/download.zip
+<<<<<<< HEAD
 github: [metadata]
+=======
+plugins:
+  - "jekyll-github-metadata"
+repository: charlestephen/charlestephen.github.io
+github: [metadata]
+increment: true
+watch: true
+>>>>>>> df41e369ec635dee000de0c087a06d3c17a041db
