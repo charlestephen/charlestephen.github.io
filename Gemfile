@@ -13,7 +13,6 @@ gem 'jekyll-github-metadata'
 gem 'jekyll-readme-index'
 gem 'rouge'
 gem 'html-pipeline-linkify_github'
-gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem 'jekyll-timeago', '~> 0.14.0'
 end
