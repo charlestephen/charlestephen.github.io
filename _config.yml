@@ -21,3 +21,4 @@ plugins:
   - "jekyll-github-metadata"
 repository: charlestephen/charlestephen.github.io
 github: [metadata]
+  --watch --incremental
