@@ -1,9 +1,12 @@
+theme: jekyll-theme-slate
+
 theme: jekyll-theme-modernist
 plugins:
-  - jekyll-seo-tag
-plugins:
   - jekyll-analytics
+  - jekyll-sitemap
+  - jekyll-seo-tag
 jekyll_analytics:
 GoogleAnalytics:
   id: UA-158763117-1
   anonymizeIp: false
+url: "https://git.cst.nyc"
