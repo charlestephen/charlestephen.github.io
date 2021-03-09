@@ -19,3 +19,4 @@ github:
   another_url: https://git.cst.nyc/download.zip
 plugins:
   - "jekyll-github-metadata"
+repository: charlestephen/charlestephen.github.io
