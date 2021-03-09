@@ -1,1 +1,9 @@
 theme: jekyll-theme-slate
+plugins:
+  - jekyll-seo-tag
+plugins:
+  - jekyll-analytics
+jekyll_analytics:
+GoogleAnalytics:
+  id: UA-158763117-1
+  anonymizeIp: false
