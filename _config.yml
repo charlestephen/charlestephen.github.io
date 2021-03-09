@@ -10,3 +10,4 @@ GoogleAnalytics:
   id: UA-158763117-1
   anonymizeIp: false
 url: "https://git.cst.nyc"
+markdown: kramdown
