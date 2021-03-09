@@ -1,4 +1,5 @@
-theme: jekyll-theme-slate
+title: [CharleStephen's Github Page]
+description: [Thanks for dropping by.]
 
 theme: jekyll-theme-modernist
 plugins:
@@ -11,3 +12,8 @@ GoogleAnalytics:
   anonymizeIp: false
 url: "https://git.cst.nyc"
 markdown: kramdown
+show_downloads: "true"
+google_analytics: UA-158763117-1
+github:
+  zip_url: http://github.com/download.zip
+  another_url: https://git.cst.nyc/download.zip
