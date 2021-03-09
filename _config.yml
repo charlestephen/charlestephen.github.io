@@ -212,4 +212,5 @@ google_analytics: UA-158763117-1
 github:
   zip_url: http://github.com/download.zip
   another_url: https://git.cst.nyc/download.zip
+trace: true
 github: metadata
