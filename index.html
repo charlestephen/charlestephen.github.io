@@ -1,5 +1,695 @@
----
-layout: default
----
-[![Build and deploy Jekyll site to GitHub Pages](https://github.com/charlestephen/charlestephen.github.io/actions/workflows/github-pages.yml/badge.svg)](https://github.com/charlestephen/charlestephen.github.io/actions/workflows/github-pages.yml)
-[![Codacy Security Scan](https://github.com/charlestephen/charlestephen.github.io/actions/workflows/codacy-analysis.yml/badge.svg)](https://github.com/charlestephen/charlestephen.github.io/actions/workflows/codacy-analysis.yml)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Neumorphism</title>
+  <meta name="description" content="Personal website powered by Jekyll">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="stylesheet" href="/assets/css/vendors.min.css">
+
+  <script src="/assets/js/vendors.min.js"></script>
+  <script src="/assets/js/app.min.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-158763117-1', 'auto');
+	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
+	ga('set', 'anonymizeIp', false);
+    </script>
+    <!-- End Google Analytics -->
+    </head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+  <div id="landing">
+  <div class="landing-title">
+    <h1>Hi, I&#39;m
+      <span class="highlight-title">Charles Stephen Thompson</span>,
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="2000"
+        data-rotate='["I'm a DevOps Software Engineer and an Automation Guru. Talk to me about `#`homeautomation.", "scroll down for more."]'
+      >
+      </span>
+    </h1>
+    <div class="landing-icons">
+      
+        <a class="social-link email" aria-label="My E-Mail" href="mailto:info@cst.nyc">
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope""></use>
+            </svg>
+          </div>
+          <span class="label">E-Mail</span>
+        </a>
+      
+
+      
+        <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+          href="https://github.com/charlestephen"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+            </svg>
+          </div>
+          <span class="label">GitHub</span>
+        </a>
+      
+
+      
+
+      
+
+      
+        <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
+          rel="noreferrer" href="https://www.linkedin.com/in/charlestephen"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
+            </svg>
+          </div>
+          <span class="label">LinkedIn</span>
+        </a>
+      
+
+      
+        <a class="social-link twitter" aria-label="My Twitter" target="_blank"
+          rel="noreferrer" href="https://twitter.com/handyhomo"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#twitter"></use>
+            </svg>
+          </div>
+          <span class="label">Twitter</span>
+        </a>
+      
+    </div>
+  </div>
+</div>
+
+  <div class="layout">
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">About Me</h1>
+<p class="description" data-aos="fade-down">Passionate about automation with years of experience creating smooth & efficient workflows across disparate applications— leveraging efficiencies & realizing savings across business units & home environments alike. Intimately familiar with the needs of rapidly growing startups, with a proven track record of delivering solutions that are timely, innovative, & secure. An entrepreneurial self-starter who uses his expertise outside of the office as the owner of a small consulting business focusing on networking & home automation. Regularly contributes to open source projects in smart home setup, home automation, & SSO integration. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-neumorphism/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/neumorphism/" target="_blank" rel="noreferrer">Jekyll Themes</a>.</p>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Skills</h1>
+
+<div id="skills">
+  <input type="radio" id="all" name="filter" checked />
+  <label class="filter-button neumorphism-button" for="all">All</label>
+  <input type="radio" id="language" name="filter" />
+  <label class="filter-button neumorphism-button" for="language">Languages</label>
+  <input type="radio" id="framework" name="filter" />
+  <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
+  <input type="radio" id="tool" name="filter" />
+  <label class="filter-button neumorphism-button" for="tool">Tools</label>
+
+  
+    <div skill-type="language" skill-weight="5" data-aos="zoom-in">
+      TypeScript
+    </div>
+  
+    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
+      JavaScript
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      Python
+    </div>
+  
+    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
+      HTML5
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      CSS3
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      SASS
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      Java
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      Dart
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      Swift
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      Kotlin
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      C++
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      Ruby
+    </div>
+  
+  
+    <div skill-type="framework" skill-weight="5" data-aos="zoom-in">
+      Angular
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      AngularJS
+    </div>
+  
+    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
+      React
+    </div>
+  
+    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
+      Node
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      Flutter
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      Express
+    </div>
+  
+    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
+      Django
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      Spring
+    </div>
+  
+    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
+      Rails
+    </div>
+  
+  
+    <div skill-type="tool" skill-weight="5" data-aos="zoom-in">
+      Git
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Bash
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Scrum
+    </div>
+  
+    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
+      Travis CI
+    </div>
+  
+    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
+      Jenkins
+    </div>
+  
+    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
+      Chrome DevTools
+    </div>
+  
+    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
+      npm
+    </div>
+  
+    <div skill-type="tool" skill-weight="4" data-aos="zoom-in">
+      gulp
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      VS Code
+    </div>
+  
+    <div skill-type="tool" skill-weight="4" data-aos="zoom-in">
+      Postman
+    </div>
+  
+</div>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Education & Experience</h1>
+<p class="subtitle">
+  For more information, have a look at my
+  <a class="highlight-link" href="https://cst.nyc/resume.pdf" target="_blank" rel="noreferrer">
+    curriculum vitae
+  </a>.
+</p>
+
+<div class="timeline-wrapper">
+  <ul class="timeline">
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>airbnb</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Sep 2019 - Present</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              Fullstack Developer
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">React</span>
+                  
+                    <span class="tag neumorphism-card">Javascript</span>
+                  
+                    <span class="tag neumorphism-card">Ruby</span>
+                  
+                    <span class="tag neumorphism-card">Rails</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>Google</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Mar 2019 - Sep 2019</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              Software Engineer as Intern
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Flutter</span>
+                  
+                    <span class="tag neumorphism-card">Dart</span>
+                  
+                    <span class="tag neumorphism-card">Keycloak</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>Super University</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">2017 - 2019</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              M.Sc. Computer Science
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>Facebook</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Sep 2017 - Mar 2019</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              Front-End Developer as Intern
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">React</span>
+                  
+                    <span class="tag neumorphism-card">Node</span>
+                  
+                    <span class="tag neumorphism-card">Javascript</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://example.com/" target="_blank" rel="noreferrer">
+                  <span>Super University</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">2014 - 2017</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              B.A. Computer Science
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+  </ul>
+</div>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        
+  <h1 class="title"><span>Projects</span></h1>
+  <div class="projects-wrapper">
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>project X</h3>
+        </div>
+        <p class="project-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
+        
+          <a class="highlight-link" href="https://example.com/" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">MongoDB</span>
+            
+              <span class="tag neumorphism-card">Express</span>
+            
+              <span class="tag neumorphism-card">AngularJS</span>
+            
+              <span class="tag neumorphism-card">Node</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>project Y</h3>
+        </div>
+        <p class="project-desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</p>
+        
+          <a class="highlight-link" href="https://example.com/" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">Python</span>
+            
+              <span class="tag neumorphism-card">Django</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>project Z</h3>
+        </div>
+        <p class="project-desc">You can also set a project without demo link and no tags</p>
+        
+        
+      </div>
+    
+  </div>
+
+
+
+  <h1 class="title">Open Source Projects</h1>
+  
+
+  
+
+  <div class="projects-wrapper">
+    
+      
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>ubuntu-server</h3>
+            <div class="links">
+              
+                
+                <a href="https://github.com/charlestephen/ubuntu-server/network/members" class="project-stars-forks">
+                  <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                    </path>
+                  </svg>1
+                </a>
+              
+            </div>
+          </div>
+          <p class="project-desc">Ubuntu Server 18.10 with ZFS Pools, Caching, Media Server, Home Automation, and Docker</p>
+          
+          <a class="highlight-link" href="https://github.com/charlestephen/ubuntu-server" target="_blank" rel="noreferrer">
+            Github
+          </a>
+          
+            <div class="tag-wrapper">
+              
+            </div>
+          
+        </div>
+      
+    
+      
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>charlestephen</h3>
+            <div class="links">
+              
+                <a href="https://github.com/charlestephen/charlestephen/stargazers" class="project-stars-forks">
+                  <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                    </path>
+                  </svg>1
+                </a>
+                
+                
+            </div>
+          </div>
+          <p class="project-desc"></p>
+          
+          <a class="highlight-link" href="https://github.com/charlestephen/charlestephen" target="_blank" rel="noreferrer">
+            Github
+          </a>
+          
+            <div class="tag-wrapper">
+              
+            </div>
+          
+        </div>
+      
+    
+  </div>
+
+
+
+
+      </section>
+    
+    
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Contact</h1>
+<p class="subtitle">Reach out to me below</p>
+
+<div class="contact-icons">
+  
+  <a class="social-link" aria-label="My E-Mail" href="mailto:info@cst.nyc">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+  <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+    href="https://github.com/charlestephen">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+
+  
+
+  
+  <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer"
+    href="https://www.linkedin.com/in/charlestephen">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+  <a class="social-link twitter" aria-label="My Twitter" target="_blank" rel="noreferrer"
+    href="https://twitter.com/handyhomo">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#twitter"></use>
+      </svg>
+    </div>
+  </a>
+  
+</div>
+
+    </section>
+    
+  </div>
+  <footer class="footer">
+  <p>
+    &copy; 2020 Designed & Developed by
+    <a class="highlight-link" href="https://longpdo.github.io/" target="_blank" rel="noreferrer">
+      Long Do
+    </a>
+  </p>
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-158763117-1", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>
