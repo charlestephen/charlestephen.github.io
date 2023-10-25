@@ -2,4 +2,4 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=charlestephen&theme=tokoyonight&bg_color=00000000&langs_count=10)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=charlestephen&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=charlestephen&repo=github-readme-stats&theme=tokoyonight&bg_color=00000000)](https://github.com/anuraghazra/github-readme-stats)
