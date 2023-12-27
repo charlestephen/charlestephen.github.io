@@ -1,10 +1,10 @@
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=charlestephen&theme=default)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=charlestephen&theme=github_dark)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=charlestephen&theme=default)![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=charlestephen&theme=default)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=charlestephen&theme=github_dark)![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=charlestephen&theme=github_dark)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=charlestephen&theme=default)![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=charlestephen&theme=default&utcOffset=8)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=charlestephen&theme=github_dark)![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=charlestephen&theme=github_dark&utcOffset=8)
 
-[![My Skills](https://skillicons.dev/icons?i=ansible,arduino,aws,azure,bash,bsd,bootstrap,cloudflare,coffeescript,css,discord,docker,firebase,gcp,git,github,githubactions,grafana,graphql,go,gitlab,html,instagram,jenkins,js,kubernetes,latex,linux,linkedin,mongodb,mysql,nginx,nodejs,openshift,postgres,postman,powershell,prometheus,py,raspberrypi,redis,stackoverflow,sqlite,vim,vercel,vscode,wordpress,&perline=13)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=ansible,arduino,aws,azure,bash,bsd,bootstrap,cloudflare,coffeescript,css,discord,docker,firebase,gcp,git,github,githubactions,grafana,graphql,go,gitlab,html,instagram,jenkins,js,kubernetes,latex,linux,linkedin,mongodb,mysql,nginx,nodejs,openshift,postgres,postman,powershell,prometheus,py,raspberrypi,redis,stackoverflow,sqlite,vim,vercel,vscode,wordpress,&perline=12)](https://skillicons.dev)
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=charlestephen&theme=dark)](https://git.io/streak-stats)
 
