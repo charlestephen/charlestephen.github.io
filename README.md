@@ -10,6 +10,5 @@
 
 ![CharleStephen's GitHub stats](https://github-readme-stats.vercel.app/api?username=charlestephen&show_icons=true&theme=tokyonight&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&bg_color=00000000)
 
-<img src="https://komarev.com/ghpvc/?username=charlestephen&style=flat-square&color=blue" alt=""/>
 
 [![Linkedin Badge](https://img.shields.io/badge/-mrcharlestephen-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/mrcharlestephen)
