@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Bump version and push tag
-        uses: hennejg/github-tag-action@v4.2.4
+        uses: hennejg/github-tag-action@v4.4.0
         with:
           github_token: ${{ secrets.YOUR_GITHUB_TOKEN }}
